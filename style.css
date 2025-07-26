@@ -12,3 +12,62 @@
     height: 300px;
     padding: 18px;
 } */
+
+body {
+    font-family: "Roboto";
+    background-image: url(streetlight-cloudy-day.jpg);
+    background-size: contain;
+    background-repeat: repeat-x; 
+
+  }
+  
+  .broken-clouds {
+    background-color: gray;
+  }
+  
+  .clear-sky {
+    background-color: yellow;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 45px;
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  
+  .city {
+    border-radius: 20px;
+    padding: 20px 20px 40px 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: rgb(194, 224, 252);
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gradus {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+  .wind {
+    font-size: 24px;
+  }
+  
