@@ -15,9 +15,10 @@
 
 body {
     font-family: "Roboto";
-    background-image: url(streetlight-cloudy-day.jpg);
-    background-size: contain;
-    background-repeat: repeat-x; 
+    background-image: url(sky.jpg);
+    background-size: 138%;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
 
   }
   
